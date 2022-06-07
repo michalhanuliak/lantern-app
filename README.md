@@ -2,8 +2,8 @@
 
 ### Features
 
-- [PNPM](https://pnpm.io/installation) - Package manager
-- [Vite](https://vitejs.dev/guide/) - Build tool
+- [PNPM](https://pnpm.io/installation) - Package manager (Why [pnpm](https://www.youtube.com/watch?v=KCrXgy8qtjM)?)
+- [Vite](https://vitejs.dev/guide/) - Build tool (Why [vite](https://www.youtube.com/watch?v=KCrXgy8qtjM)?)
 - [React](https://reactjs.org/docs/getting-started.html)
 - [Typescript](https://www.typescriptlang.org/docs/)
 - [React query](https://react-query.tanstack.com/overview)
