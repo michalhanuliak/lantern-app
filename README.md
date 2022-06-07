@@ -56,7 +56,6 @@ pnpm build
 ### E2E Testing
 
 Site has to be running and "baseUrl" set in cypress.config.ts
-Cypress tests:
 
 ```sh
 pnpm cypress
