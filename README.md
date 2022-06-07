@@ -12,17 +12,20 @@
 - [Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress) - Automated tests
 
 ### Installation
+
 ```sh
 cd ./frontend
 ```
+
 ```sh
 pnpm install
 ```
+
 (To install pnpm follow [this](https://pnpm.io/installation))
 
 ### Copy and fill in environment variables
 
-Copy `.env.local.example` as `.env.local` and fill in missing environment variables.
+Copy `.env.example` as `.env` and fill in missing environment variables.
 (All env variables in vite must have prefix "VITE\_")
 
 | Variable            | Description    |
@@ -50,16 +53,11 @@ pnpm lint:fix
 pnpm build
 ```
 
-### Testing
+### E2E Testing
 
-Cypress tests in console:
+Site has to be running and "baseUrl" set in cypress.config.ts
+Cypress tests:
 
 ```sh
 pnpm cypress
-```
-
-Cypress tests with GUI:
-
-```sh
-pnpm cypress:gui
 ```

@@ -8,8 +8,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "cypress": "cypress run",
-    "cypress:gui": "cypress open"
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
