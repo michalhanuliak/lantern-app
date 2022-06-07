@@ -16,11 +16,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "ts-node": {
-    "moduleTypes": {
-      "jest.config.ts": "cjs"
-    }
-  },
-  "include": ["src", "vite.config.ts"],
-  "exclude": ["node_modules"]
+  "include": ["src", "vite.config.ts", "cypress.config.ts"]
 }
