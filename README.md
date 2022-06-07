@@ -12,7 +12,9 @@
 - [Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress) - Automated tests
 
 ### Installation
-
+```sh
+cd ./frontend
+```
 ```sh
 pnpm install
 ```
