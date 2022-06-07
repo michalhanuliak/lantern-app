@@ -1,0 +1,11 @@
+{
+  "tailwind": {
+    "config": "./tailwind.config.js",
+    "styled": "styled-components/macro"
+  },
+  "plugins": ["babel-plugin-twin", "babel-plugin-macros"],
+  "presets": [
+    ["@babel/preset-env", { "targets": { "node": "current" } }],
+    "@babel/preset-typescript"
+  ]
+}

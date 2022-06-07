@@ -1,0 +1,39 @@
+{
+  "apiUrl": {
+    "device": "https://parse-wandera.herokuapp.com/parse/classes/Device"
+  },
+  "mockData": {
+    "newDeviceData": {
+      "name": "D - Test device 4",
+      "countryIsoCode": "DD"
+    },
+    "deviceList": {
+      "results": [
+        {
+          "objectId": "1",
+          "deviceName": "A - Test device 1",
+          "osType": "Android",
+          "countryIsoCode": "AA",
+          "createdAt": "2022-06-05T18:40:45.670Z",
+          "updatedAt": "2022-06-05T18:40:45.670Z"
+        },
+        {
+          "objectId": "2",
+          "deviceName": "B - Test device 2",
+          "osType": "iPhone",
+          "countryIsoCode": "BB",
+          "createdAt": "2022-06-06T17:01:27.935Z",
+          "updatedAt": "2022-06-06T17:01:27.935Z"
+        },
+        {
+          "objectId": "3",
+          "deviceName": "C - Test device 3",
+          "osType": "iPhone",
+          "countryIsoCode": "CC",
+          "createdAt": "2022-06-06T17:04:19.343Z",
+          "updatedAt": "2022-06-06T17:04:19.343Z"
+        }
+      ]
+    }
+  }
+}
