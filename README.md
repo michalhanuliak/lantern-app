@@ -16,6 +16,7 @@
 ```sh
 pnpm install
 ```
+(To install pnpm follow [this](https://pnpm.io/installation))
 
 ### Copy and fill in environment variables
 
