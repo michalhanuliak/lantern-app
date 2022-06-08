@@ -17,7 +17,7 @@ const Modal = ({ title, children, isOpen, handleClose }: IModal) => {
         <ModalContent>
           <ModalHeader>
             <ModalTitle>{title}</ModalTitle>
-            <ModalCloseButton onClick={handleClose} />
+            <ModalCloseButton onClick={() => handleClose()} />
           </ModalHeader>
           {children}
         </ModalContent>

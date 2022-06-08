@@ -5,6 +5,7 @@ import DevicesPage from './pages/Devices';
 import useAuth from './hooks/useAuth';
 import useToken from './hooks/useToken';
 
+// TODO: Fix UI responsivity
 const App = () => {
   const { userAuthorization } = useAuth();
   const { removeToken } = useToken();
