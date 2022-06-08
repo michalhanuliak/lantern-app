@@ -6,7 +6,7 @@ import {
   Loader,
   LoaderWrapper,
 } from '../../styles/components/DeviceDataTable.style';
-import { IDataTable } from '../../types/IDeviceDataTable.interface';
+import { IDataTable } from '../../types/interfaces/deviceDataTable.interface';
 import DeviceHeaderRow from './rows/DeviceHeaderRow';
 import DeviceRow from './rows/DeviceRow';
 
@@ -27,6 +27,7 @@ const DataTable = ({
     ));
   }, [rows, handleSort]);
 
+  // TODO: Fix broken UI on safari
   const WaitingLoader = (
     <tr>
       <LoaderWrapper

@@ -1,10 +1,5 @@
-import { ReactNode } from 'react';
 import { createPortal } from 'react-dom';
-
-interface IReactPortal {
-  wrapperId: string;
-  children: ReactNode;
-}
+import { IReactPortal } from '../types/interfaces/reactPortal.interface';
 
 const createWrapperAndAppendToBody = (wrapperId: string) => {
   const wrapperElement = document.createElement('div');

@@ -1,4 +1,4 @@
-import { Device } from './Device.type';
+import { Device } from '../Device.type';
 
 export interface IDataTable {
   rows: Device[];

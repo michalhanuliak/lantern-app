@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useMemo } from 'react';
+import { useMemo } from 'react';
 import { DATA_TABLE_COLUMNS } from '../../../constants';
 import {
   TableHeaderRow,
@@ -7,17 +7,12 @@ import {
   TableActionButton,
 } from '../../../styles/components/DeviceHeaderRow.style';
 import { Device } from '../../../types/Device.type';
+import { IDeviceHeaderRow } from '../../../types/interfaces/deviceHeaderRow.interface';
 import {
   SortByOptions,
   SortData,
   SortDirection,
 } from '../../../types/Sort.type';
-
-interface IDeviceHeaderRow {
-  setSortOption: Dispatch<SetStateAction<SortData>>;
-  actionButton: React.ReactNode;
-  renderSortDirectionArrow: (headerKey: SortByOptions) => JSX.Element | null;
-}
 
 const DeviceHeaderRow = ({
   setSortOption,

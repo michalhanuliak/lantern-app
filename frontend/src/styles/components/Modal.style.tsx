@@ -4,14 +4,14 @@ import { XIcon } from '@heroicons/react/solid';
 export const ModalWrapper = styled.div`
   background: rgba(0, 0, 0, 0.25);
   ${tw`
-  absolute
-  top-0
-  flex
-  flex-col
-  items-center
-  justify-center
-  w-screen
-  h-screen
+    absolute
+    top-0
+    flex
+    flex-col
+    items-center
+    justify-center
+    w-screen
+    h-screen
   `};
 `;
 
@@ -48,8 +48,8 @@ export const ModalTitle = styled.div`
 
 export const ModalCloseButton = styled(XIcon)`
   ${tw`
-  z-10
-      duration-100
+    z-10
+    duration-100
     h-6
   `};
   &:hover {
@@ -63,7 +63,7 @@ export const ModalCloseButton = styled(XIcon)`
 export const ModalContent = styled.div`
   ${tw`
     rounded-md
-  max-w-screen-md
+    max-w-screen-md
     p-4
     bg-white
   `};

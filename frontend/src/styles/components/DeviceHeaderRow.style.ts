@@ -37,11 +37,11 @@ export const TableHeaderContent = styled.span`
 
   & > svg {
     ${tw`
-    absolute
-    right-0
-    w-8
-    text-blue-500
-  `}
+      absolute
+      right-0
+      w-8
+      text-blue-500
+    `}
   }
 `;
 

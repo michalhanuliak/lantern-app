@@ -5,14 +5,8 @@ import {
   ModalTitle,
   ModalWrapper,
 } from '../../styles/components/Modal.style';
+import { IModal } from '../../types/interfaces/modal.interface';
 import ReactPortal from '../ReactPortal';
-
-interface IModal {
-  title: string;
-  children: React.ReactNode;
-  isOpen: boolean;
-  handleClose: (e: React.MouseEvent) => void;
-}
 
 const Modal = ({ title, children, isOpen, handleClose }: IModal) => {
   if (!isOpen) return null;

@@ -44,16 +44,19 @@ export const DeviceSubmitButton = styled.button`
     text-white
     duration-100
   `}
-  &[disabled] {
-    ${tw`
-      cursor-not-allowed
-      bg-gray-300
-    `}
-  }
   &:hover {
     ${tw`
       cursor-pointer
       bg-blue-500
     `}
+  }
+  &[disabled] {
+    ${tw`
+      cursor-not-allowed
+      bg-gray-300
+    `}
+    &:hover {
+      bg-gray-300
+    }
   }
 `;

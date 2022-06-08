@@ -7,11 +7,7 @@ import {
   ItemRemoveButton,
 } from '../../../styles/components/DeviceRow.style';
 import { Device } from '../../../types/Device.type';
-
-interface IDeviceRow {
-  rowData: Device;
-  handleDelete: (id: string) => void;
-}
+import { IDeviceRow } from '../../../types/interfaces/deviceRow.interface';
 
 const DeviceRow = ({ rowData, handleDelete }: IDeviceRow) => {
   const { getReadableDate } = useDate();

@@ -6,10 +6,7 @@ import {
   DeviceSubmitButton,
 } from '../../styles/components/NewDeviceForm.style';
 import { Device, OsType } from '../../types/Device.type';
-
-interface INewDeviceForm {
-  onSubmit: (deviceData: Device) => void;
-}
+import { INewDeviceForm } from '../../types/interfaces/newDeviceForm.interface';
 
 const NewDeviceForm = ({ onSubmit }: INewDeviceForm) => {
   const {
